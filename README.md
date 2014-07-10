@@ -10,7 +10,7 @@ Suggestions to get the most out of sbt when running the project:
 
 Edit `~/.sbtconfig`:
    
-   SBT_OPTS='-Xms1024M -Xmx2048M -Xss1M -XX:+CMSClassUnloadingEnabled -XX:MaxPermSize=1024M -XX:+UseParallelGC'
+    SBT_OPTS='-Xms1024M -Xmx2048M -Xss1M -XX:+CMSClassUnloadingEnabled -XX:MaxPermSize=1024M -XX:+UseParallelGC'
 
 Edit `sbt` (homebrew: `/usr/local/Cellar/sbt/<version>/bin/sbt`):
     
